@@ -158,7 +158,6 @@ var app = function () {
     }],
     // 获取友盟Android卸载数据
      uAndroidUninstall: ['uLogin', function (results, callback) {
-      return callback();
       req.post('http://push.umeng.com/uninstall/now', {
         form: {
           appkey: config.umeng.androidAppKey
