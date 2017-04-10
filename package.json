@@ -1,0 +1,14 @@
+{
+  "name": "moridatalog",
+  "version": "1.0.0",
+  "description": "Mori Data Log",
+  "main": "app.js",
+  "author": "Welkin Wong",
+  "dependencies": {
+    "async": "^2.2.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "node-schedule": "^1.2.1",
+    "request": "^2.81.0"
+  }
+}
